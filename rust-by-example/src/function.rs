@@ -44,4 +44,15 @@ pub fn main() {
         mul = mul_result,
         min = min_result
     );
+
+    
+    let y = {
+        let x = 3;
+        x + 1
+    };
+
+    println!("The value of y is: {y}");
+
+
+
 }
